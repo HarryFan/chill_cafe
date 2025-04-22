@@ -1,6 +1,6 @@
-/**
- * StoreMap - 門市資訊＋Google Maps（靜態展示）
- */
+/*
+* StoreMap - 門市資訊＋Google Maps（靜態展示）
+*/
 const stores = [
   {
     name: 'Chill Cafe 台北信義店',
@@ -19,7 +19,6 @@ const stores = [
     img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80'
   }
 ]
-
 export default function StoreMap() {
   return (
     <div>
@@ -50,3 +49,6 @@ export default function StoreMap() {
     </div>
   )
 }
+
+
+
