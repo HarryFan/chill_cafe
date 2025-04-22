@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-chillBg text-chillText font-chill;
+  min-height: 100vh;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4 {
+  @apply font-bold text-chillBrown;
+}
+
+a {
+  @apply text-chillBrown hover:text-chillAccent transition;
+}
+
+.navbar {
+  @apply flex items-center justify-between py-6 px-8 bg-white/80 backdrop-blur-md shadow-sm fixed w-full z-10;
+}
+
+.hero {
+  @apply flex flex-col items-center justify-center text-center py-24 px-4 bg-chillBg;
+}
+
+.menu-section {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-8 py-16 px-4;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-md p-6 flex flex-col items-center;
+}
+
+.contact-section {
+  @apply flex flex-col items-center py-16 px-4 bg-chillAccent/10;
+}
